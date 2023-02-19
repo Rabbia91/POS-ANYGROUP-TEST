@@ -6,7 +6,7 @@
 * Build and run the project the project
 ```
 mvn package
-java -cp target/graphql-spring-boot-pos-2.2.6.RELEASE.jar com.springboot.graphql.Application
+java -cp target/graphql-spring-boot-pos-2.2.6.RELEASE.jar com.springboot.graphql.boilerplate.Application
 ```
 
 Payment Method metadata in /resources/data.sql 
