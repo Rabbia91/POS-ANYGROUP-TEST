@@ -9,3 +9,4 @@ mvn package
 java -cp target/graphql-spring-boot-pos-2.2.6.RELEASE.jar com.springboot.graphql.Application
 ```
 
+Payment Method metadata in /resources/data.sql 
