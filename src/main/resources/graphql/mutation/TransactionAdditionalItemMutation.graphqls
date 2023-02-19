@@ -1,0 +1,4 @@
+extend type Mutation {
+ addTransactionAdditionalItem(transactionAdditiionalItem: TransactionAdditionalItemInput): TransactionAdditionalItem
+ 
+}

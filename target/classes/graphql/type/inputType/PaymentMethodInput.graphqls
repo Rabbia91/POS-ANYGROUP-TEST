@@ -1,0 +1,7 @@
+input PaymentMethodInput {
+    name: String!
+    minPriceModifier: Float!
+    maxPriceModifier: Float
+    pointsModifier: Float!
+    additionalItem: [AdditionalItemInput]
+}

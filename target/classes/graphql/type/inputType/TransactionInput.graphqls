@@ -1,0 +1,10 @@
+scalar Date
+
+input TransactionInput{
+    customerId : String!
+    price: Float!
+    priceModifier: Float!
+    paymentMethod: String!
+    datetime: Date!
+    additionalItem: [TransactionAdditionalItemInput]
+}

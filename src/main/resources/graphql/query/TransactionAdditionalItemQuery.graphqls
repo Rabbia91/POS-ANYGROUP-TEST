@@ -1,0 +1,4 @@
+extend type Query{
+    getTransactionAdditionalItemById(id: ID!): TransactionAdditionalItem!
+    getTransactionAdditionalItems(skip: Int, take: Int): [TransactionAdditionalItem!]!
+}

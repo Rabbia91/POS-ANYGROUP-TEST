@@ -1,0 +1,8 @@
+type PaymentMethod {
+    id: ID
+    name: String
+    minPriceModifier: Float
+    maxPriceModifier: Float
+    pointsModifier: Float
+    additionalItem: [AdditionalItem]
+}

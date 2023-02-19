@@ -1,0 +1,6 @@
+type AdditionalItem {
+    id: ID
+    key: String
+    regex: String
+    paymentMethod: PaymentMethod
+}

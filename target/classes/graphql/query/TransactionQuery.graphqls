@@ -1,0 +1,7 @@
+scalar Date
+
+extend type Query{
+    getTransactionById(id: ID!): Transaction!
+    getTransactions(skip: Int, take: Int): [Transaction!]!
+    transactionsBetween(start: Date, end: Date): [Transaction!]!
+}

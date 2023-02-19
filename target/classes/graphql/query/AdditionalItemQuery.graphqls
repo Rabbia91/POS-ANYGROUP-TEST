@@ -1,0 +1,5 @@
+extend type Query{
+    getAdditionalItemById(id: ID!): AdditionalItem!
+    getAdditionalItems(skip: Int, take: Int): [AdditionalItem!]
+    getAdditionalItemsByPaymentMethod(paymentMethodInput: PaymentMethodInput, skip: Int, take: Int): [AdditionalItem!]
+}

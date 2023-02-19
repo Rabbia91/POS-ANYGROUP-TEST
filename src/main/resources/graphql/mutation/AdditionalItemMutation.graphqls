@@ -1,0 +1,3 @@
+extend type Mutation {
+    addAdditionalItem(additionalItem: AdditionalItemInput): AdditionalItem
+}

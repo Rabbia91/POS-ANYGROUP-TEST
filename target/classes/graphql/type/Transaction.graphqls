@@ -1,0 +1,13 @@
+scalar Date
+
+type Transaction{
+    id: ID
+    customerId: String
+    price: Float
+    priceModifier: Float
+    paymentMethod: PaymentMethod
+    datetime: Date!
+    finalPrice: Float
+    points: Float
+    additionalItem: [TransactionAdditionalItem]
+}

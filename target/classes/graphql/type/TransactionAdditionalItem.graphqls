@@ -1,0 +1,7 @@
+
+type TransactionAdditionalItem{
+    id: ID
+    transaction: Transaction
+    additionalItem: AdditionalItem
+    value: String
+}

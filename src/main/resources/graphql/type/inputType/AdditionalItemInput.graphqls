@@ -1,0 +1,5 @@
+input AdditionalItemInput {
+	key: String!
+    regex: String!
+    paymentMethodInput: PaymentMethodInput
+}

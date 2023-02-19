@@ -1,0 +1,4 @@
+type Query{
+    getPaymentMethodById(id: ID!): PaymentMethod!
+    getPaymentMethods(skip: Int, take: Int): [PaymentMethod!]!
+}
